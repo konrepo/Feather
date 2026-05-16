@@ -130,7 +130,7 @@ struct Options: Codable, Equatable {
 		injectPath: .executable_path,
 		injectFolder: .frameworks,
 		ppqString: randomString(),
-		ppqProtection: false,
+		ppqProtection: true, // patched
 		dynamicProtection: false,
 		identifiers: [:],
 		displayNames: [:],
@@ -150,12 +150,12 @@ struct Options: Codable, Equatable {
 		// MARK: Experiments
 		
 		experiment_supportLiquidGlass: false,
-		experiment_replaceSubstrateWithEllekit: false,
+		experiment_replaceSubstrateWithEllekit: true, // patched
 		
 		// MARK: Post Modifications
 		
 		post_installAppAfterSigned: false,
-		post_deleteAppAfterSigned: false
+		post_deleteAppAfterSigned: true // patched
 	)
 	
 	// MARK: duplicate values are not recommended!
