@@ -1,3 +1,8 @@
+Changes:
+- Enabled PPQ Protection
+- Enabled Replace Substrate w/Ellekit
+- Enabled Delete After Signing
+
 # Feather
 
 [![GitHub Release](https://img.shields.io/github/v/release/claration/Feather?include_prereleases)](https://github.com/claration/Feather/releases)
